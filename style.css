@@ -1,22 +1,30 @@
 :root {
     --maincolor: rgb(19, 19, 19);
 }
-
+/*Top menu and logo */
 .nav-item a{
     color: yellow;
 }
+
+.navbar-color {
+    background-color: rgb(25, 25, 24);
+}
+
+.wayne-logo {
+    height: 50%;
+    width: 50%;
+};
 
 .product img{
 width: 100%;
 
 }
-
-
+/*footer warning will self destruct if moved not a joke*/
 .footer {
     background-color: black;
-    height: 5vw;
+    height: 7%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
 }
 
@@ -25,6 +33,17 @@ width: 100%;
     font-size: large;
     margin-right: 3vw;
 }
+
+.footer a:hover {
+    color: yellow;
+    font-size: large;
+    margin-right: 3vw;
+    border-radius: 10px;
+    border: 3px solid rgba(25, 25, 25, .05);
+    background-image: linear-gradient(to right, rgba(24, 24, 24, .01), rgba(255, 255, 255, 0.5), rgba(24, 24, 24, .01));
+}
+
+/*images in the products carousel*/
 
 .features img{
     width: 70%;
@@ -36,6 +55,8 @@ width: 100%;
     border-left: 100px solid rgba(19, 19, 19, 0.8);
     border-radius: 3px;
 }
+
+/*responsiveness*/
 
 @media only screen and (max-width: 375px) {
 
@@ -52,8 +73,7 @@ width: 100%;
     }
 
     .footer {
-        
-        height: 28vh;
+        height: 12%;
     }
 }
 
@@ -91,7 +111,7 @@ width: 100%;
 
     .footer {
         
-        height: 28vh;
+        height: 15%;
     }
 
 }
@@ -111,7 +131,7 @@ width: 100%;
     width: 80%;
     margin-left: 10%;
     
-}
+};
 
 .title {
     text-decoration: underline;
@@ -124,6 +144,8 @@ width: 100%;
     position: relative;
 }
 
+/*video background for products at the bottom of homepage*/
+
 video {
   min-width: 100%;
   min-height: 100%;
@@ -131,4 +153,5 @@ video {
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-}
+};
+
