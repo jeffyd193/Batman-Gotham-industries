@@ -7,18 +7,26 @@
 }
 
 .navbar-color {
-    background-color: rgb(25, 25, 24);
+    background-color: rgb(3, 3, 3);
 }
 
 .wayne-logo {
-    height: 50%;
-    width: 50%;
+    height: 10%;
+    width: 10%;
 };
 
 .product img{
 width: 100%;
-
 }
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
 /*footer warning will self destruct if moved not a joke*/
 .footer {
     background-color: black;
@@ -56,14 +64,57 @@ width: 100%;
     border-radius: 3px;
 }
 
+.blueprint-img img{
+    max-height: 60vh;
+    min-width: 60vw;
+}
+
 /*responsiveness*/
 
 @media only screen and (max-width: 375px) {
 
+   
+
+    .features {
+        display: flex;
+        justify-content: center;
+        align-self: start;
+    }
+
+    .footer {
+        height: 12%;
+    }
+
+    .blueprint-img img{
+        max-height: 60vh;
+        min-width: 60vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
     .features img{
-        width: 150vw;
-        height: 35vh;
-        margin: 0%;
+        width: 60vw;
+        height: 60vh;
+    }
+
+    .features {
+        display: flex;
+        justify-content: center;
+        align-self: start;
+    }
+
+    .footer {
+        height: 12%;
+
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+
+    .features img{
+        width: 60vw;
+        height: 60vh;
     }
 
     .features {
@@ -77,29 +128,11 @@ width: 100%;
     }
 }
 
-@media only screen and (max-width: 768px) {
-
-    .features img {
-        width: 90vw;
-
-    }
-
-}
-
-@media only screen and (max-width: 1280px) {
-
-    .features img {
-        width: 100vw;
-        width: 80vh;
-    }
-
-}
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 200px) {
 
     .features img{
-        width: 100vw;
-        height: 50vh;
+        width: 60vw;
+        height: 20vh;
         margin: 0%;
     }
 
@@ -114,6 +147,33 @@ width: 100%;
         height: 15%;
     }
 
+}
+
+@media only screen and (max-width: 1860px) {
+
+    .features img{
+        width: 60vw;
+        height: 60vh;
+        margin: 0%;
+    }
+
+    .features {
+        display: flex;
+        justify-content: center;
+        align-self: start;
+    }
+
+    .footer {
+        
+        height: 15%;
+    }
+
+    .video-container {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
 }
 
 
