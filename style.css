@@ -4,6 +4,17 @@
 /*Top menu and logo */
 .nav-item a{
     color: yellow;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-text-overide {
+    padding: 18px; 
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
 }
 
 .navbar-color {
@@ -47,7 +58,7 @@ width: 100%;
 
 .features img{
     width: 70%;
-    height: 70%;
+    height: 45em;
     margin-left: 15%;
     margin-right: 15%;
     border: 7px solid rgba(19, 19, 19, 0.8);
